@@ -12,6 +12,7 @@ Source:		http://youri.zarb.or/download/%{name}-%{version}.tar.bz2
 Url:		http://youri.zarb.org
 BuildRequires:	perl(Youri::Utils)
 BuildRequires:	perl(Youri::Package::RPM::Test)
+BuildRequires:	perl(Test::Exception)
 BuildArch:	    noarch
 BuildRoot:	    %{_tmppath}/%{name}-%{version}
 
