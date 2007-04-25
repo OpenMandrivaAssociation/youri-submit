@@ -49,5 +49,6 @@ rm -rf %{buildroot}
 %config(noreplace) %{_sysconfdir}/youri
 %{_bindir}/youri-submit*
 %{_mandir}/man1/*
+%{_mandir}/man3/*
 %{_datadir}/youri
 %{_sysconfdir}/bash_completion.d/%{name}
