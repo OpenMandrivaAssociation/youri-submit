@@ -16,7 +16,6 @@ BuildRequires:	perl(Youri::Package::RPM::Generator)
 BuildRequires:	perl(Youri::Repository::Test)
 BuildRequires:	perl(Test::Exception)
 BuildArch:	    noarch
-BuildRoot:	    %{_tmppath}/%{name}-%{version}
 
 %description
 YOURI stands for "Youri Offers an Upload & Repository Infrastucture". It aims
