@@ -1,6 +1,6 @@
 Name:		youri-submit
 Version:	0.10
-Release:	7
+Release:	8
 Summary:	Youri submit tool
 License:	GPL or Artistic
 Group:		Development/Other
