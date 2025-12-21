@@ -6,6 +6,11 @@ License:	GPL or Artistic
 Group:		Development/Other
 Source:		http://youri.zarb.or/download/%{name}-%{version}.tar.bz2
 Url:		https://youri.zarb.org
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	perl(Youri::Utils)
 BuildRequires:	perl(Youri::Package::RPM::Test)
 BuildRequires:	perl(Youri::Package::RPM::Generator)
